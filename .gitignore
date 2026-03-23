@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.env
+
+# Build output
+client/dist/
+
+# ML Model files (large)
+ml-service/model/*.pth
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
